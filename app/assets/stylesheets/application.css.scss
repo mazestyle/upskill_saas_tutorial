@@ -42,14 +42,31 @@ h1, h3, h2 {
   }
 }
 
+// Mobile user navigation bar
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #00c6ff;
+  }
+}
+
 // Homepage styles
-.home-callout{
+.home-callout {
   color:white;
   margin-top:-20px;
   padding-top: 50px;
   padding-bottom: 100px;
 }
+// Mobile use nav bar end
+
 .navbar {
   border:none;
+}
+
+.navbar-brand {
+  font-family: 'Bungee', cursive;
 }
 
